@@ -20,7 +20,7 @@ footer{padding:10px;
 
 /*641px以*/
 @media screen and (min-width:641px){
-aside{width:calc(50%-20px);
+aside{width:calc(50% - 20px);
       float:left;}
       #side:after{
       content:"";
@@ -60,15 +60,15 @@ font-family: 'Indie Flower', cursive;
      margin:auto;
 }
 section{
-    width:calc(70%-20px);
+    width:calc(70% - 20px);
     float:left;
 }
 #side{
-   width:calc(1024px-718px);
+   width:calc(1024px - 718px);
     float:left; 
 }
 aside{
-   width:calc(100%-20px);
+   width:calc(100% - 20px);
 }
 #main:after{
 content:"";
