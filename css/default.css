@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*reset　css*/
+{margin: 0;
+padding: 0;
+}
+
+body{background-color:gray;}
+header{padding:10px;
+       text-align: center;
+       background-color:red;}
+section{padding:10px;
+        background-color:orange;}
+aside{padding:10px;
+        background-color:green;}
+footer{padding:10px;
+        background-color:blue;
+        text-align:center;}
+
+/*641px以*/
+@media screen and (min-width:641px){
+aside{width:calc(50%-20%px);
+      float:left;}
+      #side:after{
+      content:"";
+      display:block;
+      clear:both;}
+      }
+
+
+
+/*640以上　980以下*/
+@media screen and (mim-width:641px) and (max-width:980px){
+body{background-color:green;}
+}
+/*981以上*/
+@media screen and (mim-width:981px){
+body{background-color:blue;}
+}
+
+@media screen and (orientation:portrait){
+body:after{
+content: "縦長";}
+}
+@media screen and (orientation:landscape){
+body:after{
+content: "横長";}
+}
+
+body{
+background-color:gray;
+font-family: 'Indie Flower', cursive;
+}
+
+/*1025以上*/
+@media screen and (min-width:1025px){
+#main{
+     max-width:1024px;
+     margin:auto;
+}
+section{
+    width:calc(70%-20%px);
+    flooat:left;
+}
+#side{
+   width:calc(1024%-718%px);
+    flooat:left; 
+}
+aside{
+   width:calc(100%-20%px);
+}
+#main:after{
+content:"";
+display:block;
+clear:both;
+}
+}
