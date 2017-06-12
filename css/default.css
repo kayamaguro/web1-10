@@ -1,6 +1,8 @@
 @charset "utf-8";
+
 /*reset　css*/
-{margin: 0;
+
+*{margin: 0;
 padding: 0;
 }
 
@@ -18,7 +20,7 @@ footer{padding:10px;
 
 /*641px以*/
 @media screen and (min-width:641px){
-aside{width:calc(50%-20%px);
+aside{width:calc(50% - 20px);
       float:left;}
       #side:after{
       content:"";
@@ -29,11 +31,11 @@ aside{width:calc(50%-20%px);
 
 
 /*640以上　980以下*/
-@media screen and (mim-width:641px) and (max-width:980px){
+@media screen and (min-width:641px) and (max-width:980px){
 body{background-color:green;}
 }
 /*981以上*/
-@media screen and (mim-width:981px){
+@media screen and (min-width:981px){
 body{background-color:blue;}
 }
 
@@ -58,15 +60,15 @@ font-family: 'Indie Flower', cursive;
      margin:auto;
 }
 section{
-    width:calc(70%-20%px);
-    flooat:left;
+    width:calc(70% - 20px);
+    float:left;
 }
 #side{
-   width:calc(1024%-718%px);
-    flooat:left; 
+   width:calc(1024px - 718px);
+    float:left; 
 }
 aside{
-   width:calc(100%-20%px);
+   width:calc(100% - 20px);
 }
 #main:after{
 content:"";
